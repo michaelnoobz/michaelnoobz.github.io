@@ -2,44 +2,44 @@ SCSS
 ---
 ---
 
-// This imports the structural layout of the Minimal theme
+// Pull in the base structure layout
 @import "{{ site.theme }}";
 
-// --- CUSTOM CLEAN DARK THEME CONFIGURATION ---
+// --- MASTER DARK MODE OVERRIDE ---
 
-body {
-  background-color: #121820; // Sleek, modern deep midnight-grey background
-  color: #e2e8f0;            // Soft off-white text (easier on the eyes than pure white)
+html, body {
+  background-color: #121820 !important; // Deep modern midnight-grey
+  color: #e2e8f0 !important;            // Soft readable off-white text
 }
 
-// Customizing the Headers
+// Ensure the main container wraps nicely in dark colors
+.container, .wrapper, main, section {
+  background-color: #121820 !important;
+  color: #e2e8f0 !important;
+}
+
+// Force bright white headings
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff !important; // Crisp, bright white for all project headers
+  color: #ffffff !important;
 }
 
-// Customizing the Links
+// Force clean tech-blue links
 a {
-  color: #38bdf8 !important; // A sharp, clean tech-blue for your links and LinkedIn connection
-  text-decoration: none;
+  color: #38bdf8 !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: #7dd3fc !important; // A slightly lighter blue when you hover your mouse over links
-  text-decoration: underline;
+  color: #7dd3fc !important;
+  text-decoration: underline !important;
 }
 
-// Text rules for lists and bullet points
-li {
-  color: #e2e8f0;
+// Set list bullets to match text
+li, ul, ol {
+  color: #e2e8f0 !important;
 }
 
-// Shifting the small grey footer text to match the dark theme
-footer {
+// Soft slate-grey for the bottom footer text
+footer, .footer-text {
   color: #64748b !important;
-}
-
-// Styling the code blocks if you add scripts later
-code {
-  background-color: #1e293b !important;
-  color: #f1f5f9 !important;
 }
