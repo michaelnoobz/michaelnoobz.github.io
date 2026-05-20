@@ -1,0 +1,45 @@
+SCSS
+---
+---
+
+// This imports the structural layout of the Minimal theme
+@import "{{ site.theme }}";
+
+// --- CUSTOM CLEAN DARK THEME CONFIGURATION ---
+
+body {
+  background-color: #121820; // Sleek, modern deep midnight-grey background
+  color: #e2e8f0;            // Soft off-white text (easier on the eyes than pure white)
+}
+
+// Customizing the Headers
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important; // Crisp, bright white for all project headers
+}
+
+// Customizing the Links
+a {
+  color: #38bdf8 !important; // A sharp, clean tech-blue for your links and LinkedIn connection
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7dd3fc !important; // A slightly lighter blue when you hover your mouse over links
+  text-decoration: underline;
+}
+
+// Text rules for lists and bullet points
+li {
+  color: #e2e8f0;
+}
+
+// Shifting the small grey footer text to match the dark theme
+footer {
+  color: #64748b !important;
+}
+
+// Styling the code blocks if you add scripts later
+code {
+  background-color: #1e293b !important;
+  color: #f1f5f9 !important;
+}
