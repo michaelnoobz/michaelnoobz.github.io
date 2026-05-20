@@ -1,3 +1,4 @@
+Markdown
 # ⚡ MICHAEL W. LANNEN
 ### **Security Operations & Infrastructure Engineer** 📍 *Beckley, WV* | 📧 *[Michael.lannen93@gmail.com](mailto:Michael.lannen93@gmail.com)* 👉 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michael-lannen-053588167/) [![GitHub](https://img.shields.io/badge/GitHub-Profile-24292e?style=for-the-badge&logo=github)](https://github.com/MichaelWLannen)
 
@@ -56,6 +57,7 @@ graph TD
     style pfSense fill:#2a3439,stroke:#ff3333,stroke-width:2px;
     style LVM fill:#1e293b,stroke:#38bdf8,stroke-width:1px;
     style Hypervisor fill:#1e293b,stroke:#7dd3fc,stroke-width:1px;
+```
 
 ## 💻 FEATURED ENTERPRISE PROJECTS
 
@@ -97,7 +99,7 @@ graph TD
 
 ### 🔹 Cyber Security & Information Technology Specialist
 **FMRS Health Systems** | *Nov 2024 – Present*
-* **Security Program Directorship:** Pioneered the organization's security monitoring posture by introducing, building, and scaling its baseline defense tools (Splunk SIEM and GoPhish frameworks) entirely from the ground up to establish real-time asset visibility.
+* **Security Program Directorship:** Pioneened the organization's security monitoring posture by introducing, building, and scaling its baseline defense tools (Splunk SIEM and GoPhish frameworks) entirely from the ground up to establish real-time asset visibility.
 * **Full-Spectrum Infrastructure Management:** Execute end-to-end administration across the clinical enterprise footprint, handling everything from hardware maintenance to core Linux/Windows Server Administration, Active Directory Group Policies, and engineering technical Knowledge Bases to standardize staff workflows.
 * **Network Segmentation:** Administer critical network security controls, implementing and maintaining Layer-2/Layer-3 VLAN routing boundaries to securely isolate clinical traffic grids.
 * **Ransomware Remediation & Containment:** Acted as a vital frontline incident responder during an active enterprise-wide ransomware outbreak; successfully isolated compromised hosts via SentinelOne EDR, contained the threat vectors, and executed comprehensive system-wide disaster recovery playbooks to eliminate data loss.
@@ -117,7 +119,4 @@ graph TD
 ---
 
 ## 🤝 COMMUNITY FOCUS
-* **Community Engineering:** Developed custom network infrastructure modifications and web properties for local healthcare/non-profit assets; engineered active 3D printing distribution pipelines to manufacture physical resources for local community drives.
-## 🎓 EDUCATION & COMMUNITY FOCUS
-* **Associate of Applied Science (A.A.S.) in Cybersecurity (Honors)** | *West Virginia Junior College*
 * **Community Engineering:** Developed custom network infrastructure modifications and web properties for local healthcare/non-profit assets; engineered active 3D printing distribution pipelines to manufacture physical resources for local community drives.
