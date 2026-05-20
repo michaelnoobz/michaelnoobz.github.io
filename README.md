@@ -72,9 +72,9 @@
 * **Environments & Tools:** `VMware Workstation` | `Oracle VM VirtualBox` | `Any.Run (Interactive Sandbox)` | `VirusTotal` | `Python`
 * **Implementation:** Design, build, and maintain strictly isolated personal virtualization networks to safely execute Python parsing tools, compile open-source security instrumentation, and analyze script-dependencies without corporate production risk. Actively perform static and dynamic threat triage by analyzing live malicious process trees, auditing registry keys, tracking network callouts, and inspecting file-hash reputations within a local laboratory perimeter.
 
-### 🌐 Open-Source Project Orchestration & Automation
-* **Tooling:** `Project Nomad` | `OpenClaw`
-* **Implementation:** Experiment with decoupled micro-architectures, distributed execution environments, and open-source system modifications to master underlying network communication protocols, configuration dependencies, and defensive alignment.
+### 🌐 Private Data Archiving & Local AI Orchestration
+* **Tooling & Models:** `Project Nomad` | `Ollama / Llama (Local Deployment)` | `OpenClaw` | `Python`
+* **Implementation:** Architected a fully offline, air-gapped data archiving and knowledge ingestion system. Integrated a localized, embedded Large Language Model (Llama framework) to enable secure, private prompt engineering and contextual parsing of offline records—ensuring zero data leakage to external public APIs while mastering local model orchestration and hardware utilization.
 
 ---
 
