@@ -1,5 +1,5 @@
 # ⚡ MICHAEL W. LANNEN
-### **Cyber Security Operations Specialist** 📍 *Beckley, WV* | 📧 *[Michael.lannen93@gmail.com](mailto:Michael.lannen93@gmail.com)* 👉 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michael-lannen-053588167/) [![GitHub](https://img.shields.io/badge/GitHub-Profile-24292e?style=for-the-badge&logo=github)](https://github.com/MichaelWLannen)
+### **Cyber Security Operations Specialist** 📍 *Beckley, WV* 👉 [![Email Me](https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Michael.lannen93@gmail.com) [![Download Master CV](https://img.shields.io/badge/Download-Master%20CV-0078D4?style=for-the-badge&logo=microsoftword&logoColor=white)](./Michael_Lannen_CV.pdf) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michael-lannen-053588167/) [![GitHub](https://img.shields.io/badge/GitHub-Profile-24292e?style=for-the-badge&logo=github)](https://github.com/MichaelWLannen)
 
 ---
 
@@ -32,11 +32,13 @@
 
 ---
 
+---
+
 ## 💻 FEATURED ENTERPRISE PROJECTS
 
 ### 📊 Greenfield Splunk SIEM Architecture & Implementation
 * **The Stack:** `Linux Server Administration` | `Logical Volume Manager (LVM)` | `Splunk Enterprise` | `Bash`
-* **Infrastructure Footprint:** Spearheaded the end-to-end design, provisioning, and command-line Bash administration of the organization's very first centralized logging pipeline, engineering a custom Splunk Enterprise SIEM platform hosted on a dedicated Linux server environment.
+* **Infrastructure Footprint:** Spearheaded the end-to-end design, provisioning, and command-line Bash administration of the organization's very first centralized logging pipeline, engineering a custom Splunk Enterprise SIEM platform hosted on a dedicated Linux server environment to establish real-time operational monitoring.
 * **Scaling Metrics:** Scaled the logging infrastructure from absolute zero to **150+ distributed clinical nodes** using optimized, repurposed hardware components, securely indexing up to **50GB/day** of live production telemetry logs.
 * **Storage Optimization:** Engineered a high-velocity log retention storage backend using Linux Logical Volume Manager (LVM) to aggregate 1TB of disparate physical disks into a unified, high-performance volume pool.
 
@@ -49,26 +51,26 @@
 
 ## 🧠 SECURITY MINDSET & DEFENSIVE PHILOSOPHY
 
-> "An administrator configures systems according to the manual; an infrastructure defender actively models adversarial attack paths to engineer resilient, self-healing networks before the breach occurs."
+> "An administrator configures systems according to the manual; a security operations defender actively monitors and triages threat vectors to maintain a highly secure, compliant, and visible enterprise environment."
 
 * **Greenfield Initiative:** I look for unmonitored infrastructure pockets, visibility blindspots, and systemic operational friction, resolving them through centralized instrumentation (SIEM) and structured automation pipelines.
-* **Adversarial Emulation:** I believe the absolute best way to defend a corporate perimeter is to actively emulate threat behaviors. By building custom phishing campaigns, script testing, and maintaining live isolated hypervisor sandboxes, I analyze endpoint behaviors to deploy predictive alerting signatures.
+* **Adversarial Emulation:** I believe the absolute best way to defend an environment is to understand how attacks happen. By studying adversarial tactics, testing utilities in sandbox environments, and running user awareness phishing simulations, I actively keep our team and infrastructure prepared for emerging threat vectors.
 
 ---
 
 ## 🔬 PERSONAL SECURITY & RESEARCH LABS
 
 ### 🛡️ Continuous Offensive & Defensive Security Research
-* **Platforms:** `Hack The Box (HTB)` | `TryHackMe`
-* **Implementation:** Actively attack and defend live, gamified lab environments to master complex infrastructure vectors. Practice advanced network penetration testing, routing architectures, firewall packet filtering bypasses, privilege escalation, and custom exploit execution to proactively anticipate and engineer defensive enterprise countermeasures.
+* **Platforms & Tools:** `Hack The Box (HTB)` | `TryHackMe` | `Tenable Nessus` | `Nmap` | `Metasploitable Linux`
+* **Implementation:** Actively attack and defend live, gamified lab environments and dedicated local Metasploitable instances to master complex infrastructure vectors. Practice advanced network discovery mapping via Nmap, host vulnerability scanning utilizing Tenable Nessus, firewall packet filtering bypasses, privilege escalation, and custom exploit execution to proactively anticipate and engineer defensive enterprise countermeasures.
 
 ### 🕵️ OSINT, Threat Intelligence & Reconnaissance Labs
 * **Tooling & Feeds:** `CISA KEV Catalog` | `MITRE CVE Database` | `AlienVault OTX` | `Google Dorking` | `Shodan` | `Maltego` | `Community Intelligence (Reddit, LinkedIn, InfoSec Podcasts)`
 * **Implementation:** Actively ingest and aggregate decentralized threat intelligence feeds to track emerging zero-days, active ransomware campaigns, and malicious IoCs. Cross-reference the MITRE CVE database with the CISA Known Exploited Vulnerabilities (KEV) catalog to prioritize patch management workflows based on active, real-world "in the wild" threat telemetry, proactively immunizing internal network perimeters.
 
-### 🛡️ Type-2 Hypervisor Sandbox Testing
-* **Environments:** `VMware Workstation` | `Oracle VM VirtualBox` | `Python`
-* **Implementation:** Design, build, and maintain isolated local virtualization sandboxes to safely compile open-source tools, mirror enterprise network topologies, and execute Python script-parsing, malware analysis, or defensive learning drills without risk to production networks.
+### 🛡️ Personal Lab Hypervisor Sandboxing & Malware Triage
+* **Environments & Tools:** `VMware Workstation` | `Oracle VM VirtualBox` | `Any.Run (Interactive Sandbox)` | `VirusTotal` | `Python`
+* **Implementation:** Design, build, and maintain strictly isolated personal virtualization networks to safely execute Python parsing tools, compile open-source security instrumentation, and analyze script-dependencies without corporate production risk. Actively perform static and dynamic threat triage by analyzing live malicious process trees, auditing registry keys, tracking network callouts, and inspecting file-hash reputations within a local laboratory perimeter.
 
 ### 🌐 Open-Source Project Orchestration & Automation
 * **Tooling:** `Project Nomad` | `OpenClaw`
