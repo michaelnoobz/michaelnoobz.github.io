@@ -34,7 +34,7 @@ graph TD
         pfSense[pfSense Firewall Cluster] --> VLAN_Seg{L2/L3 VLAN Segmentation}
     end
 
-    subgraph Clinical Network Footprint (150+ Endpoints)
+    subgraph "Clinical Network Footprint (150+ Endpoints)"
         VLAN_Seg --> WinAD[Active Directory Server]
         VLAN_Seg --> MultiEndpoints[Multi-Platform Clinical Nodes]
         
@@ -42,7 +42,7 @@ graph TD
         MultiEndpoints -- PowerShell Scripted UF Forwarders --> Splunk
     end
 
-    subgraph Centralized Security Core (Greenfield)
+    subgraph "Centralized Security Core (Greenfield)"
         Splunk[(Ubuntu Linux Server <br> Splunk Enterprise SIEM)]
         LVM[(1TB Linux LVM <br> Aggregated High-Velocity Storage Pool)]
         Splunk <--> LVM
@@ -56,9 +56,6 @@ graph TD
     style pfSense fill:#2a3439,stroke:#ff3333,stroke-width:2px;
     style LVM fill:#1e293b,stroke:#38bdf8,stroke-width:1px;
     style Hypervisor fill:#1e293b,stroke:#7dd3fc,stroke-width:1px;
-
-```markdown
----
 
 ## 💻 FEATURED ENTERPRISE PROJECTS
 
