@@ -1,4 +1,3 @@
-Markdown
 # ⚡ MICHAEL W. LANNEN
 ### **Security Operations & Infrastructure Engineer** 📍 *Beckley, WV* | 📧 *[Michael.lannen93@gmail.com](mailto:Michael.lannen93@gmail.com)* 👉 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michael-lannen-053588167/) [![GitHub](https://img.shields.io/badge/GitHub-Profile-24292e?style=for-the-badge&logo=github)](https://github.com/MichaelWLannen)
 
@@ -18,7 +17,7 @@ Markdown
 
 | 🛡️ Security Operations (SecOps) | 🔑 Cloud & Identity (IAM) | 🌐 Networking & Infrastructure |
 | :--- | :--- | :--- |
-| • Greenfield SIEM Deployment<br>• SentinelOne EDR Platform<br>• Microsoft Sentinel SIEM<br>• GoPhish Phishing Framework<br>• Incident Containment & Triage | • Microsoft Entra ID (Azure AD)<br>• AWS Cloud Administration<br>• Microsoft Intune (MDM)<br>• Active Directory & GPO Architecture<br>• Knowledge Base Architecture | • Layer-2/Layer-3 VLAN Routing<br>• Linux Server Administration<br>• DHCP/DNS Scope Management<br>• pfSense Firewall Clusters<br>• NinjaOne RMM Software |
+| • Greenfield SIEM Deployment<br>• SentinelOne EDR Platform<br>• Microsoft Sentinel SIEM<br>• Maltego Link Analysis & OSINT<br>• Shodan Threat Hunting | • Microsoft Entra ID (Azure AD)<br>• Regulatory Compliance (HIPAA, PCI DSS)<br>• Microsoft Intune (MDM)<br>• PII / PHI Data Boundary Auditing<br>• Active Directory & GPO Architecture | • Enterprise L2/L3 VLAN Routing<br>• Linux Server Administration<br>• DHCP/DNS Scope Management<br>• Advanced Network Segmentation<br>• NinjaOne RMM Software |
 
 ### 🤖 AUTOMATION & SCRIPTING LANGUAGES
 * 💻 **PowerShell:** Enterprise Windows orchestration, fleet-wide RMM software deployments, Active Directory querying, and cloud profile compliance management.
@@ -29,7 +28,9 @@ Markdown
 
 ## 🗺️ INFRASTRUCTURE TOPO MAP (LIVE RENDER)
 
-![Enterprise Infrastructure Topology Map](https://quickchart.io/graphviz?format=png&graph=digraph+G+{+node+[shape=box,fontname=%22Helvetica%22,style=%22filled,rounded%22,fillcolor=%22%231e293b%22,color=%22%2338bdf8%22,fontcolor=%22%23f8fafc%22];+edge+[color=%22%2394a3b8%22];+bgcolor=%22%230f172a%22;+subgraph+cluster_0+{+label=%22Enterprise+Perimeter%22;+fontcolor=%22%2338bdf8%22;+color=%22%23ff3333%22;+pfSense+[label=%22pfSense+Firewall+Cluster%22,fillcolor=%22%232a3439%22,color=%22%23ff3333%22];+VLAN_Seg+[label=%22L2/L3+VLAN+Segmentation%22,shape=diamond];+pfSense+->+VLAN_Seg;+}+subgraph+cluster_1+{+label=%22Clinical+Network+Footprint+(150%2B+Endpoints)%22;+fontcolor=%22%2338bdf8%22;+WinAD+[label=%22Active+Directory+Server%22];+MultiEndpoints+[label=%22Multi-Platform+Clinical+Nodes%22];+VLAN_Seg+->+WinAD;+VLAN_Seg+->+MultiEndpoints;+}+subgraph+cluster_2+{+label=%22Centralized+Security+Core+(Greenfield)%22;+fontcolor=%22%2338bdf8%22;+color=%22%2338bdf8%22;+Splunk+[label=%22Ubuntu+Linux+Server%5CnSplunk+Enterprise+SIEM%22,fillcolor=%22%232a3439%22,color=%22%2338bdf8%22];+LVM+[label=%221TB+Linux+LVM%5CnAggregated+Storage+Pool%22];+Splunk+->+LVM+[dir=both];+}+subgraph+cluster_3+{+label=%22Isolated+Security+Sandbox%22;+fontcolor=%22%2338bdf8%22;+Hypervisor+[label=%22VMware+/+VirtualBox%22];+LabNodes+[label=%22Nomad+/+OpenClaw+Labs%22];+Hypervisor+->+LabNodes;+}+WinAD+->+Splunk+[label=%22S1+EDR+/+Telemetry%22,fontcolor=%22%2394a3b8%22];+MultiEndpoints+->+Splunk+[label=%22PowerShell+UF%22,fontcolor=%22%2394a3b8%22];+})
+![Enterprise Infrastructure Topology Map](https://quickchart.io/graphviz?format=png&graph=digraph+G+{+node+[shape=box,fontname=%22Helvetica%22,style=%22filled,rounded%22,fillcolor=%22%1e293b%22,color=%22%2338bdf8%22,fontcolor=%22%23f8fafc%22];+edge+[color=%22%2394a3b8%22];+bgcolor=%22%230f172a%22;+subgraph+cluster_0+{+label=%22Enterprise+Perimeter%22;+fontcolor=%22%2338bdf8%22;+color=%22%2338bdf8%22;+VLAN_Seg+[label=%22Advanced+L2/L3+VLAN+Segmentation%5Cn(43+Secure+VLAN+Grids)%22,shape=diamond,color=%22%2338bdf8%22];+}+subgraph+cluster_1+{+label=%22Clinical+Network+Footprint+(150%2B+Endpoints)%22;+fontcolor=%22%2338bdf8%22;+WinAD+[label=%22Active+Directory+Server%22];+MultiEndpoints+[label=%22Multi-Platform+Clinical+Nodes%22];+VLAN_Seg+->+WinAD;+VLAN_Seg+->+MultiEndpoints;+}+subgraph+cluster_2+{+label=%22Centralized+Security+Core+(Greenfield)%22;+fontcolor=%22%2338bdf8%22;+color=%22%2338bdf8%22;+Splunk+[label=%22Ubuntu+Linux+Server%5CnSplunk+Enterprise+SIEM%22,fillcolor=%22%232a3439%22,color=%22%2338bdf8%22];+LVM+[label=%221TB+Linux+LVM%5CnAggregated+Storage+Pool%22];+Splunk+->+LVM+[dir=both];+}+subgraph+cluster_3+{+label=%22Isolated+Security+Sandbox%22;+fontcolor=%22%2338bdf8%22;+Hypervisor+[label=%22VMware+/+VirtualBox%22];+LabNodes+[label=%22Nomad+/+OpenClaw+Labs%22];+Hypervisor+->+LabNodes;+}+WinAD+->+Splunk+[label=%22S1+EDR+/+Telemetry%22,fontcolor=%22%2394a3b8%22];+MultiEndpoints+->+Splunk+[label=%22PowerShell+UF%22,fontcolor=%22%2394a3b8%22];+})
+
+---
 
 ## 💻 FEATURED ENTERPRISE PROJECTS
 
@@ -57,6 +58,14 @@ Markdown
 
 ## 🔬 PERSONAL SECURITY & RESEARCH LABS
 
+### 🛡️ Continuous Offensive & Defensive Security Research
+* **Platforms:** `Hack The Box (HTB)` | `TryHackMe`
+* **Implementation:** Actively attack and defend live, gamified lab environments to master complex infrastructure vectors. Practice advanced network penetration testing, routing architectures, firewall packet filtering bypasses, privilege escalation, and custom exploit execution to proactively anticipate and engineer defensive enterprise countermeasures.
+
+### 🕵️ OSINT, Threat Intelligence & Reconnaissance Labs
+* **Tooling & Feeds:** `CISA KEV Catalog` | `MITRE CVE Database` | `AlienVault OTX` | `Google Dorking` | `Shodan` | `Maltego` | `Community Intelligence (Reddit, LinkedIn, InfoSec Podcasts)`
+* **Implementation:** Actively ingest and aggregate decentralized threat intelligence feeds to track emerging zero-days, active ransomware campaigns, and malicious IoCs. Cross-reference the MITRE CVE database with the CISA Known Exploited Vulnerabilities (KEV) catalog to prioritize patch management workflows based on active, real-world "in the wild" threat telemetry, proactively immunizing internal network perimeters.
+
 ### 🛡️ Type-2 Hypervisor Sandbox Testing
 * **Environments:** `VMware Workstation` | `Oracle VM VirtualBox` | `Python`
 * **Implementation:** Design, build, and maintain isolated local virtualization sandboxes to safely compile open-source tools, mirror enterprise network topologies, and execute Python script-parsing, malware analysis, or defensive learning drills without risk to production networks.
@@ -71,9 +80,9 @@ Markdown
 
 ### 🔹 Cyber Security & Information Technology Specialist
 **FMRS Health Systems** | *Nov 2024 – Present*
-* **Security Program Directorship:** Pioneened the organization's security monitoring posture by introducing, building, and scaling its baseline defense tools (Splunk SIEM and GoPhish frameworks) entirely from the ground up to establish real-time asset visibility.
+* **NIST-Aligned Security Program Directorship:** Pioneer the organization's comprehensive security posture by mapping daily operations directly to the NIST Cybersecurity Framework (CSF); engineered and scaled baseline enterprise defense instrumentation (Splunk SIEM, GoPhish frameworks, and SentinelOne EDR) from absolute zero to achieve real-time asset visibility and continuous compliance.
 * **Full-Spectrum Infrastructure Management:** Execute end-to-end administration across the clinical enterprise footprint, handling everything from hardware maintenance to core Linux/Windows Server Administration, Active Directory Group Policies, and engineering technical Knowledge Bases to standardize staff workflows.
-* **Network Segmentation:** Administer critical network security controls, implementing and maintaining Layer-2/Layer-3 VLAN routing boundaries to securely isolate clinical traffic grids.
+* **Network Segmentation & Regulatory Compliance:** Administer complex network security controls, actively maintaining **43 separate Layer-2/Layer-3 VLAN routing grids** to strictly enforce HIPAA, PHI, PII, and PCI DSS compliance boundaries—safeguarding patient data arrays, clinical equipment dependencies, and guest domains through rigorous broadcast isolation.
 * **Ransomware Remediation & Containment:** Acted as a vital frontline incident responder during an active enterprise-wide ransomware outbreak; successfully isolated compromised hosts via SentinelOne EDR, contained the threat vectors, and executed comprehensive system-wide disaster recovery playbooks to eliminate data loss.
 * **Social Engineering Defense Engineering:** Designed and launched the clinic's first-ever phishing simulation campaign. Personally coded and deployed custom HTML redirect training landing pages that mapped users to immediate remedial tutorials, resulting in a **20% reduction** in company-wide email click rates.
 
