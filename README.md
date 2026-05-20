@@ -29,35 +29,7 @@ Markdown
 
 ## 🗺️ INFRASTRUCTURE TOPO MAP (LIVE RENDER)
 
-```mermaid
-graph TD
-    subgraph Enterprise Perimeter
-        pfSense[pfSense Firewall Cluster] --> VLAN_Seg{L2/L3 VLAN Segmentation}
-    end
-
-    subgraph "Clinical Network Footprint (150+ Endpoints)"
-        VLAN_Seg --> WinAD[Active Directory Server]
-        VLAN_Seg --> MultiEndpoints[Multi-Platform Clinical Nodes]
-        
-        WinAD -- S1 EDR / Telemetry --> Splunk
-        MultiEndpoints -- PowerShell Scripted UF Forwarders --> Splunk
-    end
-
-    subgraph "Centralized Security Core (Greenfield)"
-        Splunk[(Ubuntu Linux Server <br> Splunk Enterprise SIEM)]
-        LVM[(1TB Linux LVM <br> Aggregated High-Velocity Storage Pool)]
-        Splunk <--> LVM
-    end
-
-    subgraph Isolated Security Sandbox
-        Hypervisor[VMware / VirtualBox Hypervisors] --> LabNodes[Nomad / OpenClaw Labs]
-    end
-
-    style Splunk fill:#2a3439,stroke:#38bdf8,stroke-width:2px;
-    style pfSense fill:#2a3439,stroke:#ff3333,stroke-width:2px;
-    style LVM fill:#1e293b,stroke:#38bdf8,stroke-width:1px;
-    style Hypervisor fill:#1e293b,stroke:#7dd3fc,stroke-width:1px;
-```
+![Enterprise Infrastructure Topology Map](https://quickchart.io/graphviz?format=png&graph=digraph+G+{+node+[shape=box,fontname=%22Helvetica%22,style=%22filled,rounded%22,fillcolor=%22%231e293b%22,color=%22%2338bdf8%22,fontcolor=%22%23f8fafc%22];+edge+[color=%22%2394a3b8%22];+bgcolor=%22%230f172a%22;+subgraph+cluster_0+{+label=%22Enterprise+Perimeter%22;+fontcolor=%22%2338bdf8%22;+color=%22%23ff3333%22;+pfSense+[label=%22pfSense+Firewall+Cluster%22,fillcolor=%22%232a3439%22,color=%22%23ff3333%22];+VLAN_Seg+[label=%22L2/L3+VLAN+Segmentation%22,shape=diamond];+pfSense+->+VLAN_Seg;+}+subgraph+cluster_1+{+label=%22Clinical+Network+Footprint+(150%2B+Endpoints)%22;+fontcolor=%22%2338bdf8%22;+WinAD+[label=%22Active+Directory+Server%22];+MultiEndpoints+[label=%22Multi-Platform+Clinical+Nodes%22];+VLAN_Seg+->+WinAD;+VLAN_Seg+->+MultiEndpoints;+}+subgraph+cluster_2+{+label=%22Centralized+Security+Core+(Greenfield)%22;+fontcolor=%22%2338bdf8%22;+color=%22%2338bdf8%22;+Splunk+[label=%22Ubuntu+Linux+Server%5CnSplunk+Enterprise+SIEM%22,fillcolor=%22%232a3439%22,color=%22%2338bdf8%22];+LVM+[label=%221TB+Linux+LVM%5CnAggregated+Storage+Pool%22];+Splunk+->+LVM+[dir=both];+}+subgraph+cluster_3+{+label=%22Isolated+Security+Sandbox%22;+fontcolor=%22%2338bdf8%22;+Hypervisor+[label=%22VMware+/+VirtualBox%22];+LabNodes+[label=%22Nomad+/+OpenClaw+Labs%22];+Hypervisor+->+LabNodes;+}+WinAD+->+Splunk+[label=%22S1+EDR+/+Telemetry%22,fontcolor=%22%2394a3b8%22];+MultiEndpoints+->+Splunk+[label=%22PowerShell+UF%22,fontcolor=%22%2394a3b8%22];+})
 
 ## 💻 FEATURED ENTERPRISE PROJECTS
 
