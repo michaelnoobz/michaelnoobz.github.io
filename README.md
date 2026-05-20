@@ -1,10 +1,10 @@
 # ⚡ MICHAEL W. LANNEN
-### **Security Operations & Infrastructure Engineer** 📍 *Beckley, WV* | 📧 *[Michael.lannen93@gmail.com](mailto:Michael.lannen93@gmail.com)* 👉 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michael-lannen-053588167/) [![GitHub](https://img.shields.io/badge/GitHub-Profile-24292e?style=for-the-badge&logo=github)](https://github.com/MichaelWLannen)
+### **Cyber Security Operations Specialist** 📍 *Beckley, WV* | 📧 *[Michael.lannen93@gmail.com](mailto:Michael.lannen93@gmail.com)* 👉 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michael-lannen-053588167/) [![GitHub](https://img.shields.io/badge/GitHub-Profile-24292e?style=for-the-badge&logo=github)](https://github.com/MichaelWLannen)
 
 ---
 
 > ## 🚀 CORE ATTENTION VALUATION
-> **Security Operations Professional with 2 years of dedicated Cybersecurity engineering and 6 years of high-velocity IT Enterprise Operations.** A versatile infrastructure engineer recognized for architecting, deploying, and pioneering organizational security programs from the ground up—transforming unmonitored environments into secure, compliant, and visible defense frameworks across Hybrid, Azure, and AWS cloud topologies.
+> **Security Operations Professional with 2 years of dedicated Cybersecurity operations management and 6 years of high-velocity IT Enterprise Operations.** A versatile tactical operator recognized for monitoring, triaging, and pioneering organizational security programs from the ground up—transforming unmonitored environments into secure, compliant, and visible defense frameworks across Hybrid, Azure, and AWS cloud topologies.
 
 ---
 
@@ -17,12 +17,12 @@
 
 | 🛡️ Security Operations (SecOps) | 🔑 Cloud & Identity (IAM) | 🌐 Networking & Infrastructure |
 | :--- | :--- | :--- |
-| • Greenfield SIEM Deployment<br>• SentinelOne EDR Platform<br>• Microsoft Sentinel SIEM<br>• Maltego Link Analysis & OSINT<br>• Shodan Threat Hunting | • Microsoft Entra ID (Azure AD)<br>• Regulatory Compliance (HIPAA, PCI DSS)<br>• Microsoft Intune (MDM)<br>• PII / PHI Data Boundary Auditing<br>• Active Directory & GPO Architecture | • Enterprise L2/L3 VLAN Routing<br>• Linux Server Administration<br>• DHCP/DNS Scope Management<br>• Advanced Network Segmentation<br>• NinjaOne RMM Software |
+| • Greenfield SIEM Deployment<br>• SentinelOne EDR Platform<br>• Interactive Malware Analysis (Any.Run)<br>• Threat Triage & Hash Inspections (VirusTotal)<br>• Tenable Nessus & Nmap Discovery | • Microsoft Entra ID (Azure AD)<br>• Regulatory Compliance (HIPAA, PCI DSS)<br>• Microsoft Intune (MDM)<br>• LLM Security Engineering & Prompting<br>• Active Directory & GPO Architecture | • Enterprise L2/L3 VLAN Routing<br>• Linux Server Administration<br>• DHCP/DNS Scope Management<br>• Advanced Network Segmentation<br>• NinjaOne RMM Software |
 
-### 🤖 AUTOMATION & SCRIPTING LANGUAGES
+### 🤖 AUTOMATION, SCRIPTING & AI INTEGRATION
 * 💻 **PowerShell:** Enterprise Windows orchestration, fleet-wide RMM software deployments, Active Directory querying, and cloud profile compliance management.
 * 🐧 **Bash:** Native Unix/Linux administration, command-line storage engineering (LVM configuration), automated system provisioning, and cron-job log rotations.
-* 🐍 **Python:** Security logic execution, API cloud configuration manipulation, file-parsing automation, and sandbox malware analysis tools.
+* 🐍 **Python & LLM Orchestration:** SecOps logic execution, API cloud configuration manipulation, file-parsing automation, and leveraging Large Language Models (LLMs) to accelerate log analysis, script debugging, and sandbox threat triage.
 
 ---
 
