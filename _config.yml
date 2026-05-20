@@ -2,6 +2,7 @@ title: Michael W. Lannen
 description: Security Operations & Infrastructure Engineer
 logo: /assets/img/logo.png
 description: Security Operations & Infrastructure Engineer
-show_downloads: true
+show_downloads: False
 google_analytics:
 theme: jekyll-theme-midnight
+
