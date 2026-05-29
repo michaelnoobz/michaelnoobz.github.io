@@ -65,7 +65,4 @@
 ## 🤝 COMMUNITY FOCUS
 * **Community Engineering:** Developed custom network infrastructure modifications and web properties for local healthcare/non-profit assets; engineered active 3D printing distribution pipelines to manufacture physical resources for local community drives.
 
----
 
-## 🤝 COMMUNITY FOCUS
-* **Community Engineering:** Developed custom network infrastructure modifications and web properties for local healthcare/non-profit assets; engineered active 3D printing distribution pipelines to manufacture physical resources for local community drives.
