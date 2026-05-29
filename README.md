@@ -34,6 +34,8 @@
 
 ## 💼 PROFESSIONAL EXPERIENCE
 
+## 💼 PROFESSIONAL EXPERIENCE
+
 ### 🔺 Cybersecurity and IT Specialist
 **FMRS Health Systems** | *Nov 2024 – Present*
 * **NIST-Aligned Security Program Directorship:** Pioneer the organization's comprehensive security posture by mapping daily operations directly to the NIST Cybersecurity Framework (CSF); engineered and scaled baseline enterprise defense instrumentation (Splunk SIEM, GoPhish frameworks, and SentinelOne EDR) from absolute zero to achieve real-time asset visibility and continuous compliance.
@@ -41,6 +43,11 @@
 * **Network Segmentation & Regulatory Compliance:** Administer complex network security controls, actively maintaining **43 separate Layer-2/Layer-3 VLAN routing grids** to strictly enforce HIPAA, PHI, PII, and PCI DSS compliance boundaries—safeguarding patient data arrays, clinical equipment dependencies, and guest domains through rigorous broadcast isolation.
 * **Ransomware Remediation & Containment:** Acted as a vital frontline incident responder during an active enterprise-wide ransomware outbreak; successfully isolated compromised hosts via SentinelOne EDR, contained the threat vectors, and executed comprehensive system-wide disaster recovery playbooks to eliminate data loss.
 * **Social Engineering Defense Engineering:** Designed and launched the clinic's first-ever phishing simulation campaign. Personally coded and deployed custom HTML redirect training landing pages that mapped users to immediate remedial tutorials, resulting in a **20% reduction** in company-wide email click rates.
+
+### 🔸 Engineering Analyst & Technical Drafter (Contract)
+**Alpha Engineering Services** | *Oct 2023 – Feb 2024*
+* **Data Analysis & Optimization:** Sorted, parsed, and analyzed complex technical data arrays from industrial fan measurements to isolate critical optimizations for ventilation systems, successfully increasing operational efficiency by **20% to 30%**.
+* **System Safeguards & Modeling:** Maintained strict adherence to safety, environmental, and engineering compliance frameworks during real-time data capture and engineered high-accuracy technical plans using AutoCAD to ensure long-term regulatory alignment.
 
 ### 🔹 Production Support Specialist (Hybrid)
 **Ibex Global Solutions** | *May 2019 – Nov 2024*
