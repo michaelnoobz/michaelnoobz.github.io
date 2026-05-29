@@ -28,61 +28,17 @@
 
 ## 🗺️ INFRASTRUCTURE TOPO MAP (LIVE RENDER)
 
-![Enterprise Infrastructure Topology Map](https://quickchart.io/graphviz?format=png&graph=digraph+G+{+node+[shape=box,fontname=%22Helvetica%22,style=%22filled,rounded%22,fillcolor=%22%1e293b%22,color=%22%2338bdf8%22,fontcolor=%22%23f8fafc%22];+edge+[color=%22%2394a3b8%22];+bgcolor=%22%230f172a%22;+subgraph+cluster_0+{+label=%22Enterprise+Perimeter%22;+fontcolor=%22%2338bdf8%22;+color=%22%2338bdf8%22;+VLAN_Seg+[label=%22Advanced+L2/L3+VLAN+Segmentation%5Cn(Multi-Zone+Security+Grids)%22,shape=diamond,color=%22%2338bdf8%22];+}+subgraph+cluster_1+{+label=%22Clinical+Network+Footprint+(150%2B+Endpoints)%22;+fontcolor=%22%2338bdf8%22;+WinAD+[label=%22Active+Directory+Server%22];+MultiEndpoints+[label=%22Multi-Platform+Clinical+Nodes%22];+VLAN_Seg+->+WinAD;+VLAN_Seg+->+MultiEndpoints;+}+subgraph+cluster_2+{+label=%22Centralized+Security+Core+(Greenfield)%22;+fontcolor=%22%2338bdf8%22;+color=%22%2338bdf8%22;+Splunk+[label=%22Ubuntu+Linux+Server%5CnSplunk+Enterprise+SIEM%22,fillcolor=%22%232a3439%22,color=%22%2338bdf8%22];+LVM+[label=%221TB+Linux+LVM%5CnAggregated+Storage+Pool%22];+Splunk+->+LVM+[dir=both];+}+subgraph+cluster_3+{+label=%22Isolated+Security+Sandbox%22;+fontcolor=%22%2338bdf8%22;+Hypervisor+[label=%22VMware+/+VirtualBox%22];+LabNodes+[label=%22Nomad+/+OpenClaw+Labs%22];+Hypervisor+->+LabNodes;+}+WinAD+->+Splunk+[label=%22S1+EDR+/+Telemetry%22,fontcolor=%22%2394a3b8%22];+MultiEndpoints+->+Splunk+[label=%22PowerShell+UF%22,fontcolor=%22%2394a3b8%22];+})
-
----
-
-## 💻 FEATURED ENTERPRISE PROJECTS
-
-### 📊 Greenfield Splunk SIEM Architecture & Implementation
-* **The Stack:** `Linux Server Administration` | `Logical Volume Manager (LVM)` | `Splunk Enterprise` | `Bash`
-* **Infrastructure Footprint:** Spearheaded the end-to-end design, provisioning, and command-line Bash administration of the organization's very first centralized logging pipeline, engineering a custom Splunk Enterprise SIEM platform hosted on a dedicated Linux server environment to establish real-time operational monitoring.
-* **Scaling Metrics:** Scaled the logging infrastructure from absolute zero to **150+ distributed clinical nodes** using optimized, repurposed hardware components, securely indexing up to **50GB/day** of live production telemetry logs.
-* **Storage Optimization:** Engineered a high-velocity log retention storage backend using Linux Logical Volume Manager (LVM) to aggregate 1TB of disparate physical disks into a unified, high-performance volume pool.
-
-### 🤖 Fleet-Wide SecOps Automation Pipelines
-* **The Stack:** `PowerShell Scripting` | `NinjaOne RMM` | `SentinelOne EDR` | `Microsoft Intune`
-* **Automation Engineering:** Authored, audited, and maintained custom PowerShell automation deployment scripts executed fleet-wide via the NinjaOne RMM orchestrator to bypass manual local installations.
-* **Endpoint Hardening:** Mass-deployed SentinelOne EDR and Splunk forwarder agents simultaneously across **150+ multi-platform production endpoints**, utilizing Microsoft Intune profiles to manage compliance.
-
----
-
-## 🧠 SECURITY MINDSET & DEFENSIVE PHILOSOPHY
-
-> "An administrator configures systems according to the manual; a security operations defender actively monitors and triages threat vectors to maintain a highly secure, compliant, and visible enterprise environment."
-
-* **Greenfield Initiative:** I look for unmonitored infrastructure pockets, visibility blindspots, and systemic operational friction, resolving them through centralized instrumentation (SIEM) and structured automation pipelines.
-* **Adversarial Emulation:** I believe the absolute best way to defend an environment is to understand how attacks happen. By studying adversarial tactics, testing utilities in sandbox environments, and running user awareness phishing simulations, I actively keep our team and infrastructure prepared for emerging threat vectors.
-
----
-
-## 🔬 PERSONAL SECURITY & RESEARCH LABS
-
-### 🛡️ Continuous Offensive & Defensive Security Research
-* **Platforms & Tools:** `Hack The Box (HTB)` | `TryHackMe` | `Tenable Nessus` | `Nmap` | `Metasploitable Linux`
-* **Implementation:** Actively attack and defend live, gamified lab environments and dedicated local Metasploitable instances to master complex infrastructure vectors. Practice advanced network discovery mapping via Nmap, host vulnerability scanning utilizing Tenable Nessus, firewall packet filtering bypasses, privilege escalation, and custom exploit execution to proactively anticipate and engineer defensive enterprise countermeasures.
-
-### 🕵️ OSINT, Threat Intelligence & Reconnaissance Labs
-* **Tooling & Feeds:** `CISA KEV Catalog` | `MITRE CVE Database` | `AlienVault OTX` | `Google Dorking` | `Shodan` | `Maltego` | `Community Intelligence (Reddit, LinkedIn, InfoSec Podcasts)`
-* **Implementation:** Actively ingest and aggregate decentralized threat intelligence feeds to track emerging zero-days, active ransomware campaigns, and malicious IoCs. Cross-reference the MITRE CVE database with the CISA Known Exploited Vulnerabilities (KEV) catalog to prioritize patch management workflows based on active, real-world "in the wild" threat telemetry, proactively immunizing internal network perimeters.
-
-### 🛡️ Personal Lab Hypervisor Sandboxing & Malware Triage
-* **Environments & Tools:** `VMware Workstation` | `Oracle VM VirtualBox` | `Any.Run (Interactive Sandbox)` | `VirusTotal` | `Python`
-* **Implementation:** Design, build, and maintain strictly isolated personal virtualization networks to safely execute Python parsing tools, compile open-source security instrumentation, and analyze script-dependencies without corporate production risk. Actively perform static and dynamic threat triage by analyzing live malicious process trees, auditing registry keys, tracking network callouts, and inspecting file-hash reputations within a local laboratory perimeter.
-
-### 🌐 Private Data Archiving & Local AI Orchestration
-* **Tooling & Models:** `Project Nomad` | `Ollama / Llama (Local Deployment)` | `OpenClaw` | `Python`
-* **Implementation:** Architected a fully offline, air-gapped data archiving and knowledge ingestion system. Integrated a localized, embedded Large Language Model (Llama framework) to enable secure, private prompt engineering and contextual parsing of offline records—ensuring zero data leakage to external public APIs while mastering local model orchestration and hardware utilization.
+![Enterprise Infrastructure Topology Map](https://quickchart.io/graphviz?format=png&graph=digraph+G+%7B+node+%5Bshape%3Dbox%2Cfontname%3D%22Helvetica%22%2Cstyle%3D%22filled%2Crounded%22%2Cfillcolor%3D%22%231e293b%22%2Ccolor%3D%22%2338bdf8%22%2Fontcolor%3D%22%23f8fafc%22%5D%3B+edge+%5Bcolor%3D%22%2394a3b8%22%5D%3B+bgcolor%3D%22%230f172a%22%3B+subgraph+cluster_0+%7B+label%3D%22Enterprise+Perimeter%22%3B+fontcolor%3D%22%2338bdf8%22%3B+color%3D%22%2338bdf8%22%3B+VLAN_Seg+%5Blabel%3D%22Advanced+L2%2FL3+Segmentation%5Cn%2843+Secure+VLAN+Zones%29%22%2Cshape%3Ddiamond%2Ccolor%3D%22%2338bdf8%22%5D%3B+%7D+subgraph+cluster_1+%7B+label%3D%22Clinical+Footprint+%28150%2B+Endpoints%29%22%3B+fontcolor%3D%22%2338bdf8%22%3B+WinAD+%5Blabel%3D%22Active+Directory+Domain+Controller%22%5D%3B+MultiEndpoints+%5Blabel%3D%22Multi-Platform+Clinical+Nodes%5Cn%28Workstations+%26+Medical+IoT%29%22%5D%3B+VLAN_Seg+-%3E+WinAD%3B+VLAN_Seg+-%3E+MultiEndpoints%3B+%7D+subgraph+cluster_2+%7B+label%3D%22Centralized+Security+Core%22%3B+fontcolor%3D%22%2338bdf8%22%3B+color%3D%22%2338bdf8%22%3B+Splunk+%5Blabel%3D%22Ubuntu+Linux+Server%5CnSplunk+Enterprise+SIEM%22%2Cfillcolor%3D%22%232a3439%22%2Ccolor%3D%22%2338bdf8%22%5D%3B+LVM+%5Blabel%3D%221TB+Linux+LVM%5CnAggregated+Storage+Pool%22%5D%3B+Splunk+-%3E+LVM+%5Bdir%3Dboth%2C+label%3D%22Log+Sync%2FIO%22%5D%3B+%7D+subgraph+cluster_3+%7B+label%3D%22Isolated+Security+Sandbox%22%3B+fontcolor%3D%22%2338bdf8%22%3B+Hypervisor+%5Blabel%3D%22VMware+Type-1+%2F+VirtualBox%22%5D%3B+LabNodes+%5Blabel%3D%22Malware+Analysis+%26+Lab+Nodes%22%5D%3B+Hypervisor+-%3E+LabNodes%3B+%7D+WinAD+-%3E+Splunk+%5Blabel%3D%22S1+API+%2F+Event+Logs%22%2Cfontcolor%3D%22%2394a3b8%22%5D%3B+MultiEndpoints+-%3E+Splunk+%5Blabel%3D%22Sysmon+%2F+Universal+Forwarder%22%2Cfontcolor%3D%22%2394a3b8%22%5D%3B+%7D)
 
 ---
 
 ## 💼 PROFESSIONAL EXPERIENCE
 
-### 🔹 Cyber Security & Information Technology Specialist
+### 🔺 Cybersecurity and IT Specialist
 **FMRS Health Systems** | *Nov 2024 – Present*
 * **NIST-Aligned Security Program Directorship:** Pioneer the organization's comprehensive security posture by mapping daily operations directly to the NIST Cybersecurity Framework (CSF); engineered and scaled baseline enterprise defense instrumentation (Splunk SIEM, GoPhish frameworks, and SentinelOne EDR) from absolute zero to achieve real-time asset visibility and continuous compliance.
 * **Full-Spectrum Infrastructure Management:** Execute end-to-end administration across the clinical enterprise footprint, handling everything from hardware maintenance to core Linux/Windows Server Administration, Active Directory Group Policies, and engineering technical Knowledge Bases to standardize staff workflows.
-* **Network Segmentation & Regulatory Compliance:** Administer complex network security controls, actively maintaining **dozens of isolated Layer-2/Layer-3 VLAN routing grids** to strictly enforce HIPAA, PHI, PII, and PCI DSS compliance boundaries—safeguarding patient data arrays, clinical equipment dependencies, and guest domains through rigorous broadcast isolation.
+* **Network Segmentation & Regulatory Compliance:** Administer complex network security controls, actively maintaining **43 separate Layer-2/Layer-3 VLAN routing grids** to strictly enforce HIPAA, PHI, PII, and PCI DSS compliance boundaries—safeguarding patient data arrays, clinical equipment dependencies, and guest domains through rigorous broadcast isolation.
 * **Ransomware Remediation & Containment:** Acted as a vital frontline incident responder during an active enterprise-wide ransomware outbreak; successfully isolated compromised hosts via SentinelOne EDR, contained the threat vectors, and executed comprehensive system-wide disaster recovery playbooks to eliminate data loss.
 * **Social Engineering Defense Engineering:** Designed and launched the clinic's first-ever phishing simulation campaign. Personally coded and deployed custom HTML redirect training landing pages that mapped users to immediate remedial tutorials, resulting in a **20% reduction** in company-wide email click rates.
 
@@ -96,6 +52,11 @@
 ## 🎓 EDUCATION & GRIT
 * **Associate of Applied Science (A.A.S.) in Cybersecurity (Honors)** | *West Virginia Junior College*
   * *Completed an accelerated 18-month program layout with Honors status while simultaneously maintaining full-time corporate enterprise operational roles.*
+
+---
+
+## 🤝 COMMUNITY FOCUS
+* **Community Engineering:** Developed custom network infrastructure modifications and web properties for local healthcare/non-profit assets; engineered active 3D printing distribution pipelines to manufacture physical resources for local community drives.
 
 ---
 
